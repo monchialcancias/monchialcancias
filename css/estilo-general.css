@@ -1,0 +1,29 @@
+/* estilo-general */
+
+/* Importando estilo-nav.css */
+@import url('estilo-nav.css');
+@import url('estilo-footer.css');
+
+/* Importando fuentes */
+@font-face{
+    font-family: 'Vintages';
+    src: "fonts/Vintages.ttf" format('ttf');
+    font-family: 'Tulip';
+    src: "fonts/Tulip_DEMO.ttf" format('ttf');
+}
+
+/* Para el texto */
+
+.fuente-texto-general{
+    font-family: 'Vintages';
+}
+
+.fuente-texto-adicional{
+    font-family: 'Tulip';
+}
+
+.color-texto-general{
+    color: rgb(85, 85, 65);
+}
+
+

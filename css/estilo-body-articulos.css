@@ -1,0 +1,169 @@
+/* estilo-body-articulos */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.font-size-titulo{
+    font-size: 40px;
+}
+
+.font-size-subtitulo{
+    font-size: 30px;
+}
+
+.font-size-parrafo{
+    font-size: 20px;
+}
+
+.border-radius-articulo{
+    border-radius: 25px;
+}
+
+@media (max-width: 1065px){
+    .font-size-titulo{
+        font-size: 30px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 20px;
+    }
+
+    .font-size-parrafo{
+        font-size: 20px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    .font-size-titulo{
+        font-size: 22px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 18px;
+    }
+
+    .font-size-parrafo{
+        font-size: 16px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 18px;
+    }
+}
+
+@media (max-width: 540px){
+    .font-size-titulo{
+        font-size: 20px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 14px;
+    }
+
+    .font-size-parrafo{
+        font-size: 12px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 18px;
+    }
+}
+
+@media (max-width: 414px){
+    .font-size-titulo{
+        font-size: 20px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 14px;
+    }
+
+    .font-size-parrafo{
+        font-size: 12px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 16px;
+    }
+}
+
+@media (max-width: 375px){
+    .font-size-titulo{
+        font-size: 18px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 12px;
+    }
+
+    .font-size-parrafo{
+        font-size: 12px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 16px;
+    }
+}
+
+@media (max-width: 360px){
+    .font-size-titulo{
+        font-size: 18px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 12px;
+    }
+
+    .font-size-parrafo{
+        font-size: 10px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 14px;
+    }
+}
+
+@media (max-width: 320px){
+    .font-size-titulo{
+        font-size: 16px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 10px;
+    }
+
+    .font-size-parrafo{
+        font-size: 8px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 14px;
+    }
+}
+
+@media (max-width: 280px){
+    .font-size-titulo{
+        font-size: 16px;
+    }
+    
+    .font-size-subtitulo{
+        font-size: 10px;
+    }
+
+    .font-size-parrafo{
+        font-size: 8px;
+    }
+
+    .border-radius-articulo{
+        border-radius: 12px;
+    }
+}
