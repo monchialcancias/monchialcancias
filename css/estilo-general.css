@@ -8,7 +8,9 @@
     url("fonts/Vintages.woff2") format('woff2'),     
     url("fonts/Vintages.svg#Tulip") format('svg'), 
     url("fonts/Vintages.eot?#iefix") format('embedded-opentype');
-    
+}
+
+@font-face{
     font-family: 'Tulip';
     src: url("fonts/Tulip_DEMO.ttf") format('truetype'),
     url("fonts/Tulip_DEMO.woff") format('woff'),
