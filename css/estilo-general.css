@@ -3,13 +3,18 @@
 /* Importando fonts */
 @font-face{
     font-family: 'Vintages';
-    src: "fonts/Vintages.ttf" format('ttf'), 
+    src: "fonts/Vintages.ttf" format('truetype'), 
     "fonts/Vintages.woff" format('woff'),
-    "fonts/Vintages.woff2" format('woff2');
+    "fonts/Vintages.woff2" format('woff2'),     
+    "fonts/Vintages.svg#Tulip" format('svg'), 
+    "fonts/Vintages.eot?#iefix" format('embedded-opentype');
+    
     font-family: 'Tulip';
-    src: "fonts/Tulip_DEMO.ttf" format('ttf'),
+    src: "fonts/Tulip_DEMO.ttf" format('truetype'),
     "fonts/Tulip_DEMO.woff" format('woff'),
-    "fonts/Tulip_DEMO.woff2" format('woff2');
+    "fonts/Tulip_DEMO.woff2" format('woff2'),
+    "fonts/Tulip_DEMO.svg#Tulip" format('svg'),
+    "fonts/Tulip_DEMO.eot?#iefix" format('embedded-opentype');
 }
 
 /* Texto */
