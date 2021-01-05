@@ -1,18 +1,18 @@
 /* estilo-general */
 
-/* Importando estilo-nav.css */
-@import url('estilo-nav.css');
-@import url('estilo-footer.css');
-
-/* Importando fuentes */
+/* Importando fonts */
 @font-face{
     font-family: 'Vintages';
-    src: "fonts/Vintages.ttf" format('ttf');
+    src: "fonts/Vintages.ttf" format('ttf'), 
+    "fonts/Vintages.woff" format('woff'),
+    "fonts/Vintages.woff2" format('woff2');
     font-family: 'Tulip';
-    src: "fonts/Tulip_DEMO.ttf" format('ttf');
+    src: "fonts/Tulip_DEMO.ttf" format('ttf'),
+    "fonts/Tulip_DEMO.woff" format('woff'),
+    "fonts/Tulip_DEMO.woff2" format('woff2');
 }
 
-/* Para el texto */
+/* Texto */
 
 .fuente-texto-general{
     font-family: 'Vintages';
@@ -25,5 +25,3 @@
 .color-texto-general{
     color: rgb(85, 85, 65);
 }
-
-

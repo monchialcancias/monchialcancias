@@ -6,7 +6,6 @@
     border: 0;
 }
 .contenedor-principal{
-    width: 100%;
     display: flex;
 }
 
@@ -15,16 +14,8 @@
     color: white;
 }
 
-.font-size-default{
-    font-size: 25px;
-}
-
 .font-size-redes{
     font-size: 25px;
-}
-
-.li-item:hover{
-    background-color: darkgray;
 }
 
 @media (max-width: 1065px){
@@ -39,6 +30,15 @@
     }
     #footer-redes a, #footer-links a{
         font-size: 15px;
+    }
+}
+
+@media (max-width: 800px){
+    .footer-principal{
+        font-size: 18px;
+    }
+    #footer-redes a, #footer-links a{
+        font-size: 13px;
     }
 }
 
