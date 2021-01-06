@@ -11,90 +11,97 @@
     justify-content: space-around;
 }
 
-.font-size-titulo{
+.font-size-titulo-body-alcancias{
     font-size: 40px;
 }
 
-.font-size-subtitulo{
+.font-size-subtitulo-body-alcancias{
     font-size: 30px;
 }
 
+.borde-bottom{
+    border-bottom: 2px solid rgb(85, 85, 65);
+}
+
 @media (max-width: 1065px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 30px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 20px;
     }    
 }
 
 @media (max-width: 800px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 22px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 18px;
     }
 }
 
 @media (max-width: 540px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 20px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 14px;
+    }
+    .borde-bottom{
+        border-bottom: 1px solid rgb(85, 85, 65);
     }
 }
 
 @media (max-width: 414px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 20px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 14px;
     }
 }
 
 @media (max-width: 375px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 18px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 12px;
     }
 }
 
 @media (max-width: 360px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 18px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 12px;
     }
 }
 
 @media (max-width: 320px){
-    .font-size-titulo{
+    .font-size-titulo-body-alcancias{
         font-size: 16px;
     }
     
-    .font-size-subtitulo{
+    .font-size-subtitulo-body-alcancias{
         font-size: 10px;
     }
 }
 
 @media (max-width: 280px){
-    .font-size-titulo{
-        font-size: 16px;
+    .font-size-titulo-body-alcancias{
+        font-size: 14px;
     }
     
-    .font-size-subtitulo{
-        font-size: 10px;
+    .font-size-subtitulo-body-alcancias{
+        font-size: 8px;
     }
 }

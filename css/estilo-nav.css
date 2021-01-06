@@ -50,6 +50,10 @@
     visibility: hidden;
 }
 
+.boton-responsive:hover{
+    cursor: pointer;
+}
+
 .background-navegacion{    
     background-color:rgb(255, 231, 181);
 }
@@ -61,6 +65,11 @@
 
 .width-img{
     width: 25px;
+}
+
+.z-index{
+    position: relative;
+    z-index: -2;
 }
 
 @media (max-width: 1024px){
@@ -105,7 +114,7 @@
     .navegacion-transicion{
         transform: translateY(-100%);
         z-index: -1;
-    } 
+    }
 }
 
 @media (max-width: 625px){
