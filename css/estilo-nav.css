@@ -11,22 +11,52 @@
     font-size: 25px;
 }
 
+.contenedor-nav{    
+    background-color: rgb(255, 231, 181);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0;
+}
+
 .navegacion-principal{
-    text-decoration: none;
-    width: 30%;
-    display: inline-block;
     display: flex;
+    padding: 1%;
+    text-decoration: none;
     justify-content: center;
-    padding: 1% 0px;
     align-items: center;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(255, 231, 181);
+}
+
+.contenedor-boton-responsive{
+    display: flex;    
+    background-color: rgb(255, 231, 181);
+    z-index: 2;
+}
+
+.boton-responsive{
+    background-color: rgb(255, 231, 181);
+    font-size: 30px;
+    margin-right: 15px;
+    visibility: hidden;
+}
+
+.boton-responsive:hover{
+    cursor: pointer;
+}
+
+.contenedor-navegacion{
+    flex: 1;
+    align-self: stretch;
+    background-color: rgb(255, 231, 181);
 }
 
 .navegacion{
     display: flex;
+    justify-content: flex-end;
     list-style: none;
     height: 100%;
-    padding: 0;
-    margin: 0;
     transition: all 0.5s;
 }
 
@@ -41,35 +71,17 @@
     padding: 0px 20px;
 }
 
-.boton-responsive{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 231, 181);
-    font-size: 30px;
-    visibility: hidden;
-}
-
-.boton-responsive:hover{
-    cursor: pointer;
-}
-
 .background-navegacion{    
     background-color:rgb(255, 231, 181);
 }
 
 .navegacion-link:hover{
-    background-color: rgb(255, 215, 128, 0.6);
+    background-color: #ffdc69;
     color: white;
 }
 
 .width-img{
     width: 25px;
-}
-
-.z-index{
-    position: relative;
-    z-index: -2;
 }
 
 @media (max-width: 1024px){
@@ -89,13 +101,26 @@
         font-size: 16px;
     }
 
-    .boton-responsive{
-        visibility: visible;
-        padding: 0px 2%;
-        margin-right: 15px;
+    .contenedor-boton-responsive{
+        flex: 1;
+        align-self: stretch;
+        justify-content: flex-end;    
+        background-color: rgb(255, 231, 181);
+        z-index: 2;
     }
 
-    .navegacion{
+    .boton-responsive{
+        visibility: visible;
+    }
+
+    .contenedor-navegacion{
+        flex: 0;
+        position: absolute;
+        display: block;
+        width: 100%;
+    }
+
+    .navegacion{        
         position: absolute;
         display: block;    
         top: 63px;
@@ -113,7 +138,14 @@
 
     .navegacion-transicion{
         transform: translateY(-100%);
-        z-index: -1;
+        z-index: 1;
+    }
+
+    .contenedor-nav{    
+        background-color: rgb(255, 231, 181);
+        display: grid;
+        grid-template-columns: 30% auto;
+        justify-content: space-between;
     }
 }
 
