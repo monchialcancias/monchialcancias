@@ -2,31 +2,31 @@
 
 /* Importando fonts */
 @font-face{
-    font-family: 'Vintages';
-    src: url("fonts/Vintages.ttf") format('truetype'), 
-    url("fonts/Vintages.woff") format('woff'),
-    url("fonts/Vintages.woff2") format('woff2'),     
-    url("fonts/Vintages.svg#Tulip") format('svg'), 
-    url("fonts/Vintages.eot?#iefix") format('embedded-opentype');
+    font-family: 'AloneOnEarth';
+    src: url("fonts/AloneOnEarth.ttf") format('truetype'),
+    url("fonts/AloneOnEarth.woff") format('woff'),
+    url("fonts/AloneOnEarth.woff2") format('woff2'),
+    url("fonts/AloneOnEarth.svg#Tulip") format('svg'),
+    url("fonts/AloneOnEarth.eot?#iefix") format('embedded-opentype');
 }
 
 @font-face{
-    font-family: 'Tulip';
-    src: url("fonts/Tulip_DEMO.ttf") format('truetype'),
-    url("fonts/Tulip_DEMO.woff") format('woff'),
-    url("fonts/Tulip_DEMO.woff2") format('woff2'),
-    url("fonts/Tulip_DEMO.svg#Tulip") format('svg'),
-    url("fonts/Tulip_DEMO.eot?#iefix") format('embedded-opentype');
+    font-family: 'OpenSans';
+    src: url("fonts/OpenSans.ttf") format('truetype'), 
+    url("fonts/OpenSans.woff") format('woff'),
+    url("fonts/OpenSans.woff2") format('woff2'),     
+    url("fonts/OpenSans.svg#Tulip") format('svg'), 
+    url("fonts/OpenSans.eot?#iefix") format('embedded-opentype');
 }
 
 /* Texto */
 
 .fuente-texto-general{
-    font-family: 'Vintages';
+    font-family: 'AloneOnEarth';
 }
 
 .fuente-texto-adicional{
-    font-family: 'Tulip';
+    font-family: 'OpenSans';
 }
 
 .color-texto-general{

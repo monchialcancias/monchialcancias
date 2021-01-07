@@ -12,11 +12,11 @@
 }
 
 .font-size-titulo-body-alcancias{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .font-size-subtitulo-body-alcancias{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .borde-bottom{
@@ -25,11 +25,11 @@
 
 @media (max-width: 1065px){
     .font-size-titulo-body-alcancias{
-        font-size: 30px;
+        font-size: 24px;
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 20px;
+        font-size: 17px;
     }    
 }
 
@@ -39,7 +39,7 @@
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
@@ -49,7 +49,7 @@
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 14px;
+        font-size: 13px;
     }
     .borde-bottom{
         border-bottom: 1px solid rgb(85, 85, 65);
@@ -58,21 +58,21 @@
 
 @media (max-width: 414px){
     .font-size-titulo-body-alcancias{
-        font-size: 20px;
+        font-size: 19px;
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 14px;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 375px){
     .font-size-titulo-body-alcancias{
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
@@ -82,26 +82,26 @@
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
 @media (max-width: 320px){
     .font-size-titulo-body-alcancias{
-        font-size: 16px;
+        font-size: 17px;
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
 @media (max-width: 280px){
     .font-size-titulo-body-alcancias{
-        font-size: 14px;
+        font-size: 15px;
     }
     
     .font-size-subtitulo-body-alcancias{
-        font-size: 8px;
+        font-size: 6px;
     }
 }

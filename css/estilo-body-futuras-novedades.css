@@ -7,30 +7,53 @@
 }
 
 .font-size-titulo{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .font-size-subtitulo{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .borde-bottom-body-futuras-novedades{
     border-bottom: 2px solid rgb(85, 85, 65);
 }
 
+.contenedor-seccion-body-futuras-novedades{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0px;
+}
+
+.contenedor-parrafo-body-futuras-novedades{
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 2px solid white;
+    text-align: center;
+    padding: 3%;
+    margin-right: 2%;
+}
+
+.contenedor-imagen-body-futuras-novedades{
+    width: 30%;
+    margin-right: 2%;
+}
+
+
 @media (max-width: 1065px){
     .font-size-titulo{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .font-size-subtitulo{
-        font-size: 20px;
+        font-size: 15px;
     }    
 }
 
 @media (max-width: 800px){
     .font-size-titulo{
-        font-size: 18px;
+        font-size: 23px;
     }
     
     .font-size-subtitulo{
@@ -40,21 +63,36 @@
 
 @media (max-width: 684px){
     .font-size-titulo{
-        font-size: 18px;
+        font-size: 22px;
     }
     
     .font-size-subtitulo{
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .borde-bottom-body-futuras-novedades{
         border-bottom: 1px solid rgb(85, 85, 65);
     }
+
+    .contenedor-seccion-body-futuras-novedades{
+        display: block;
+    }
+
+    .contenedor-parrafo-body-futuras-novedades{
+        width: 80%;
+        margin: auto;
+    }
+
+    .contenedor-imagen-body-futuras-novedades{
+        width: 60%;
+        margin: auto;
+        margin-top: 2%;
+    }
 }
 
 @media (max-width: 540px){
     .font-size-titulo{
-        font-size: 16px;
+        font-size: 21px;
     }
     
     .font-size-subtitulo{
@@ -64,50 +102,50 @@
 
 @media (max-width: 414px){
     .font-size-titulo{
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .font-size-subtitulo{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
 @media (max-width: 375px){
     .font-size-titulo{
-        font-size: 15px;
+        font-size: 19px;
     }
     
     .font-size-subtitulo{
-        font-size: 9px;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 360px){
     .font-size-titulo{
-        font-size: 16px;
+        font-size: 19px;
     }
     
     .font-size-subtitulo{
-        font-size: 8px;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 320px){
     .font-size-titulo{
-        font-size: 14px;
+        font-size: 18px;
     }
     
     .font-size-subtitulo{
-        font-size: 6px;
+        font-size: 10px;
     }
 }
 
 @media (max-width: 280px){
     .font-size-titulo{
-        font-size: 12px;
+        font-size: 17px;
     }
     
     .font-size-subtitulo{
-        font-size: 6px;
+        font-size: 9px;
     }
 }

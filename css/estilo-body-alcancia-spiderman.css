@@ -21,11 +21,11 @@
 }
 
 .font-size-titulo-body-alcancia-spiderman{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .font-size-subtitulo-body-alcancia-spiderman{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .borde-bottom{
@@ -39,7 +39,7 @@
 
 @media (max-width: 1065px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 22px;
+        font-size: 28px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
@@ -49,7 +49,7 @@
 
 @media (max-width: 800px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
@@ -67,17 +67,7 @@
 
 @media (max-width: 540px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 18px;
-    }
-    
-    .font-size-subtitulo-body-alcancia-spiderman{
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 414px){
-    .font-size-titulo-body-alcancia-spiderman{
-        font-size: 14px;
+        font-size: 22px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
@@ -85,9 +75,19 @@
     }
 }
 
+@media (max-width: 414px){
+    .font-size-titulo-body-alcancia-spiderman{
+        font-size: 21px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-spiderman{
+        font-size: 11px;
+    }
+}
+
 @media (max-width: 375px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
@@ -97,30 +97,30 @@
 
 @media (max-width: 360px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 12px;
+        font-size: 20px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 
 @media (max-width: 320px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 12px;
+        font-size: 19px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
-        font-size: 8px;
+        font-size: 9px;
     }
 }
 
 @media (max-width: 280px){
     .font-size-titulo-body-alcancia-spiderman{
-        font-size: 10px;
+        font-size: 18px;
     }
     
     .font-size-subtitulo-body-alcancia-spiderman{
-        font-size: 6px;
+        font-size: 8px;
     }
 }

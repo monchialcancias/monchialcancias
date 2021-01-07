@@ -10,26 +10,38 @@
 }
 
 .footer-principal{
-    font-size: 45px;
+    font-size: 35px;
     color: white;
 }
 
 .font-size-redes{
-    font-size: 25px;
+    font-size: 20px;
+}
+
+@media (max-width: 1105px){
+    .footer-principal{
+        font-size: 25px;
+    }    
+    #footer-redes a, #footer-links a{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 1065px){
     .footer-principal{
         font-size: 25px;
     }    
+    #footer-redes a, #footer-links a{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 800px){
     .footer-principal{
-        font-size: 20px;
+        font-size: 19px;
     }
     #footer-redes a, #footer-links a{
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
@@ -38,47 +50,38 @@
         font-size: 18px;
     }
     #footer-redes a, #footer-links a{
-        font-size: 13px;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 540px){
     .footer-principal{
-        font-size: 15px;
+        font-size: 16px;
     }
     #footer-redes a, #footer-links a{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
 @media (max-width: 414px){
     .footer-principal{
-        font-size: 15px;
+        font-size: 13px;
     }
     #footer-redes a, #footer-links a{
-        font-size: 10px;
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 411px){
+    .footer-principal{
+        font-size: 14px;
+    }
+    #footer-redes a, #footer-links a{
+        font-size: 6px;
     }
 }
 
 @media (max-width: 375px){
-    .footer-principal{
-        font-size: 14px;
-    }
-    #footer-redes a, #footer-links a{
-        font-size: 9px;
-    }
-}
-
-@media (max-width: 360px){
-    .footer-principal{
-        font-size: 14px;
-    }
-    #footer-redes a, #footer-links a{
-        font-size: 9px;
-    }
-}
-
-@media (max-width: 320px){
     .footer-principal{
         font-size: 12px;
     }
@@ -87,9 +90,27 @@
     }
 }
 
-@media (max-width: 280px){
+@media (max-width: 360px){
+    .footer-principal{
+        font-size: 12px;
+    }
+    #footer-redes a, #footer-links a{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 320px){
     .footer-principal{
         font-size: 10px;
+    }
+    #footer-redes a, #footer-links a{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 280px){
+    .footer-principal{
+        font-size: 9px;
     }
     #footer-redes a, #footer-links a{
         font-size: 5px;
