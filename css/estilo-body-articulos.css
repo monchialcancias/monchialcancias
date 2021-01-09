@@ -46,7 +46,7 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .font-size-parrafo-body-articulos{
@@ -60,15 +60,15 @@
 
 @media (max-width: 800px){
     .font-size-titulo-body-articulos{
-        font-size: 22px;
+        font-size: 24px;
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .border-radius-articulo{
@@ -82,11 +82,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .border-radius-articulo{
@@ -108,11 +108,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 9px;
+        font-size: 15px;
     }
 
     .border-radius-articulo{
@@ -126,11 +126,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 9px;
+        font-size: 15px;
     }
 
     .border-radius-articulo{
@@ -144,11 +144,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .border-radius-articulo{
@@ -162,11 +162,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 7px;
+        font-size: 11px;
     }
 
     .border-radius-articulo{
@@ -180,11 +180,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 7px;
+        font-size: 11px;
     }
 
     .border-radius-articulo{
@@ -198,11 +198,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 7px;
+        font-size: 11px;
     }
 
     .border-radius-articulo-body-articulos{
@@ -216,11 +216,11 @@
     }
     
     .font-size-subtitulo-body-articulos{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .font-size-parrafo-body-articulos{
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .border-radius-articulo{
