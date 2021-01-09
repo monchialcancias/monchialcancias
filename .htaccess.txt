@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.sudominio.com [NC]
+
+RewriteRule ^(.*)$
+https://sudominio.com/$1 [R=301,L]
