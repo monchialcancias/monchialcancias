@@ -1,0 +1,131 @@
+/* estilo-body-alcancia-spiderman */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.contenedor-grilla-dos, .contenedor-grilla-tres{
+    display: grid;
+}
+
+.contenedor-grilla-tres{
+    grid-template-columns: 33% 33% 34%;
+    text-align: center;
+}
+
+.contenedor-grilla-dos{
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.font-size-titulo-body-alcancia-minnie{
+    font-size: 35px;
+}
+
+.font-size-subtitulo-body-alcancia-minnie{
+    font-size: 25px;
+}
+
+.borde-bottom{
+    border-bottom: 2px solid rgb(85,85,65);
+}
+
+.borde-informacion{
+    border: 2px solid rgb(85,85,65);
+}
+
+.contenedor-informacion-precio{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+@media (max-width: 1065px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 22px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 18px;
+    }    
+}
+
+@media (max-width: 800px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 18px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 16px;
+    }
+
+    .borde-bottom{
+        border-bottom: 1px solid rgb(85,85,65);
+    }
+
+    .borde-informacion{
+        border: 1px solid rgb(85,85,65);
+    }
+}
+
+@media (max-width: 540px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 16px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 414px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 15px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 375px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 14px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 14px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 13px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 280px){
+    .font-size-titulo-body-alcancia-minnie{
+        font-size: 12px;
+    }
+    
+    .font-size-subtitulo-body-alcancia-minnie{
+        font-size: 8px;
+    }
+}
