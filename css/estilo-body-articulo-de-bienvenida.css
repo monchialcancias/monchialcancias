@@ -1,0 +1,167 @@
+/* estilo-body-articulo-de-bienvenida */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.font-size-titulo-body-articulo-de-bienvenida{
+    font-size: 35px;
+}
+
+.font-size-subtitulo-body-articulo-de-bienvenida{
+    font-size: 25px;
+}
+
+.font-size-parrafo-body-articulo-de-bienvenida{
+    font-size: 20px;
+}
+
+.borde-bottom-body-articulo-de-bienvenida{
+    border-bottom: 2px solid rgb(85,85,65);
+}
+
+@media (max-width: 1065px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 30px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 22px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 20px;
+    }    
+}
+
+@media (max-width: 800px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 24px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 20px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 683px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 20px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 19px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 17px;
+    }
+
+    .borde-bottom-body-articulo-de-bienvenida{
+        border: 1px solid rgb(85,85,65);
+    }
+}
+
+@media (max-width: 570px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 20px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 17px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 540px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 20px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 17px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 414px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 20px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 15px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 18px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 13px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 360px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 18px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 13px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 320px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 16px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 13px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 280px){
+    .font-size-titulo-body-articulo-de-bienvenida{
+        font-size: 16px;
+    }
+    
+    .font-size-subtitulo-body-articulo-de-bienvenida{
+        font-size: 12px;
+    }
+
+    .font-size-parrafo-body-articulo-de-bienvenida{
+        font-size: 10px;
+    }
+}
